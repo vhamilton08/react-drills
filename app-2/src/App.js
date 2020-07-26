@@ -9,7 +9,7 @@ class App extends Component {
     food: ["chicken", "pork", "popcorn", "salsa"]
 } 
 }
-rendor(){
+render(){
   let foods = this.state.food.map((el, i) => {
     return <h2 key={i}>{el}</h2>
   })
